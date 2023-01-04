@@ -11,7 +11,7 @@ class CardSelectionVC: UIViewController {
 
     @IBOutlet var cardImageView: UIImageView!
     
-    @IBOutlet var buttons: [UIButton]!
+//    @IBOutlet var buttons: [UIButton]!
     var cards : [UIImage] = Card.allValues
     
     
@@ -22,9 +22,9 @@ class CardSelectionVC: UIViewController {
         super.viewDidLoad()
         
         startTimer()
-        for button in buttons {
-            button.layer.cornerRadius = 8
-        }
+//        for button in buttons {
+//            button.layer.cornerRadius = 8
+//        }
         
         
         
