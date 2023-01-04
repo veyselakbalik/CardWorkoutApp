@@ -11,10 +11,6 @@ class CardSelectionVC: UIViewController {
 
     @IBOutlet var cardImageView: UIImageView!
     
-    @IBOutlet var stopButton: UIButton!
-    @IBOutlet var restartButton: UIButton!
-    @IBOutlet var rulesButton: UIButton!
-    
     @IBOutlet var buttons: [UIButton]!
     
     
@@ -30,5 +26,9 @@ class CardSelectionVC: UIViewController {
     @IBAction func stopButtonTapped(_ sender: UIButton) {
     }
     
-
+    @IBAction func restartButtonTapped(_ sender: UIButton) {
+    }
+    
+    @IBAction func rulesButtonTapped(_ sender: UIButton) {
+    }
 }
