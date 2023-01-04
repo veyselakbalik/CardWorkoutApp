@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		731999852965ACA600EA1CC6 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731999842965ACA600EA1CC6 /* Card.swift */; };
 		73A7AB212965627C00AF0CF3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A7AB202965627C00AF0CF3 /* AppDelegate.swift */; };
 		73A7AB232965627C00AF0CF3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A7AB222965627C00AF0CF3 /* SceneDelegate.swift */; };
 		73A7AB282965627C00AF0CF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73A7AB262965627C00AF0CF3 /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		731999842965ACA600EA1CC6 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		73A7AB1D2965627C00AF0CF3 /* CardWorkout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardWorkout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73A7AB202965627C00AF0CF3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		73A7AB222965627C00AF0CF3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				73A7AB202965627C00AF0CF3 /* AppDelegate.swift */,
 				73A7AB222965627C00AF0CF3 /* SceneDelegate.swift */,
 				73A7AB34296562EA00AF0CF3 /* CardSelectionVC.swift */,
+				731999842965ACA600EA1CC6 /* Card.swift */,
 				73A7AB262965627C00AF0CF3 /* Main.storyboard */,
 				73A7AB292965627D00AF0CF3 /* Assets.xcassets */,
 				73A7AB2B2965627D00AF0CF3 /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 				73A7AB212965627C00AF0CF3 /* AppDelegate.swift in Sources */,
 				73A7AB232965627C00AF0CF3 /* SceneDelegate.swift in Sources */,
 				73A7AB35296562EA00AF0CF3 /* CardSelectionVC.swift in Sources */,
+				731999852965ACA600EA1CC6 /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
