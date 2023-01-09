@@ -40,9 +40,10 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c1t-v3-C5i">
-                                <rect key="frame" x="66.666666666666671" y="646" width="115.00000000000001" height="50"/>
+                                <rect key="frame" x="66.666666666666671" y="646" width="120.00000000000001" height="50"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="115" id="RFa-hP-ogh"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="120" id="67f-47-bl6"/>
+                                    <constraint firstAttribute="width" constant="120" id="RFa-hP-ogh"/>
                                     <constraint firstAttribute="height" constant="50" id="YbK-dq-AKY"/>
                                 </constraints>
                                 <state key="normal" title="Button"/>
@@ -56,9 +57,10 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fnm-Gl-2O4">
-                                <rect key="frame" x="211.66666666666663" y="646" width="115" height="50"/>
+                                <rect key="frame" x="206.66666666666663" y="646" width="120" height="50"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="115" id="UYe-Uz-nm8"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="120" id="OB8-cp-4Qb"/>
+                                    <constraint firstAttribute="width" constant="120" id="UYe-Uz-nm8"/>
                                     <constraint firstAttribute="height" constant="50" id="pjm-Wh-CTQ"/>
                                 </constraints>
                                 <state key="normal" title="Button"/>
